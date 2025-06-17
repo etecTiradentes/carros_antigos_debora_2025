@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'noto sans',sans-serif;
+    
+}
+
+.body{
+   
+  font-family: 'Assistant';font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header{
+     background-image: url(./imgp/Design\ sem\ nome\ \(7\).jpg);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+   
+ }
+
+
+.navbar{
+    border-top: 0;
+
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 170px;
+   
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: 50px;
+    z-index: 999;
+    
+}
+
+nav{
+    flex: 1;
+    justify-content: center;
+    
+}
+nav ul{
+    
+    display: inline-block;
+    list-style-type: none;
+  
+ 
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 0px;
+    line-height: 1.2;
+     border-radius: 20%;
+     
+   
+}
+ul a{
+    text-decoration: none;
+    color: #c03319;
+    font-size: 15px;
+    font-family: 'lexend', Arial, Helvetica, sans-serif;
+    
+   
+}
+
+
+ul a{
+   
+    padding: 18px;
+    border-radius: 50px;
+   color: #17388d;
+    transition: background-color 0.3s ease;
+    
+}
+
+ul a:hover{
+   background-color: #d1ea93;
+}
+
+
+
+p{
+    color: #000000;
+}
+.container{
+    margin: auto;
+    background-image: url(./imgp/Design\ sem\ nome\ \(7\).jpg);
+  
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-left: 100px;
+   justify-content: center;
+
+  
+}
+.col-11 img{
+   max-width: 1000%;
+   width: 900px;
+}
+
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 300px;
+    color: #023534;
+   
+}
+
+
+
+
+.offer {
+    margin-top: 20px;
+   max-width: 1700px;
+   display: flex;
+    justify-content: left;
+  
+}
+.col-8 .text{
+   max-width: 600px;
+  font-family: sans-serif;
+  color: #8a8a8a;
+}
+
+.col-8{
+    flex-basis: 40%;
+    min-height: 200px;
+    transition: transform 0.5s;
+  
+  
+}
+
+.col-8 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 100px;
+    color: #023534;
+
+}
+
+.col-8 img{
+  display: block;
+  margin-top: 100px;
+  
+}
+
+.col-8 .offer-img{
+    width: 840px;
+    margin-right: 30px;
+   
+}
+
+
+.offer3{
+    display: flex;
+    justify-content: reverse;
+   justify-content: center;
+   flex-wrap: nowrap;
+ 
+}
+
+ 
+
+.offer3{
+    background: linear-gradient(#d2caca);
+ 
+}
+
+
+.categories{
+    margin: 70px 0;
+    width: 100%;
+  overflow: hidden;
+}
+
+.row-2{
+   flex: 1
+}
+.row-2 ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 200px;
+    
+   
+    
+}
+
+.row-2 li{
+    display: inline-block;
+    margin-left: 0px;
+    line-height: 1.2;
+     background-color: #ffffff;
+     border-radius: 20%;
+     
+   
+}
+ul a{
+    text-decoration: none;
+    color: #1a8686;
+    font-size: 18px;
+    font-family: 'lexend', Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+    
+}
+
+
+ul a{
+    
+    padding: 7px;
+    border-radius: 10px;
+    color: #066260;
+    transition: background-color 0.3s ease;
+    
+    
+}
+
+ul a:hover{
+   background-color: #1aa1ad;
+   font-size: 20px;
+}
+
+
+.header1{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 175131.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+.header2{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 183812.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+.header3{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 184252.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+.header4{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 184709.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+.header5{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 185122.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+
+.header6{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 185253.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+
+.header7{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 185511.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+
+
+.header8{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 185916.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+
+.header9{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 190128.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+.header10{
+     background-image: url(./img/Captura\ de\ tela\ 2025-05-31\ 190247.png);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 700px;
+}
+
+
+
+.text2{
+    text-decoration: none;
+    color: #c4c4c4;
+    font-size: 18px;
+    font-family: 'lexend', Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+    
+}
+
+.text2 h1{
+    
+    color: #ffffff;
+    
+}
+
+.ul2 a{
+    
+    padding: 7px;
+    border-radius: 10px;
+    color: #c8cbcb;
+    transition: background-color 0.3s ease;
+    
+    
+}
